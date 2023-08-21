@@ -1,3 +1,7 @@
+Director.destroy_all
+Movie.destroy_all
+Review.destroy_all
+
 director1 = Director.create(
   name: "Steven Spielberg",
   birthplace: "Cincinnati, OH",
